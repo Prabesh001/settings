@@ -1,0 +1,38 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.settings{
+  border: 1px solid lightgray;
+  width: fit-content;
+  background-color: white;
+  padding: 0;
+  width: 299px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+  display: none;
+}
+.sub-half{
+  border-bottom: 1px solid lightgray;
+}
+button{
+  display: block;
+  font-size:12px;
+  width: 100%;
+  display: flex;
+  margin: 3px 0;
+  padding: 5px 0 4px 35px;
+  background-color: transparent;
+  border: none;
+}
+.name:hover{
+  background-color: rgb(237, 233, 233);
+}
+.rightclick{
+    display: block;
+}
+
+.backscreen{
+  opacity: 0.4;
+}
