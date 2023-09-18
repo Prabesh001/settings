@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="setting.css">
+</head>
+
+<body>
+  <p class="backscreen">right click on screen to see the result</p>
+
+  <div class="settings">
+
+    <div class="sub-half">
+      <button class="no-name" onclick="action('back')">Back</button>
+      <button class="no-name" onclick="action('forward')">Forward</button>
+      <button class="name" onclick="action('reload')">Reload</button>
+    </div>
+
+    <div class="sub-half">
+      <button class="name" onclick="action('save')">Save as...</button>
+      <button class="name"onclick="action('print')">Print...</button>
+      <button class="name" onclick="action('cast')">Cast...</button>
+      <button class="name" onclick="action('search')">Search images with Google</button>
+    </div>
+
+    <div class="sub-half">
+      <button class="name" onclick="action('send')">Send to your devices</button>
+      <button class="name" onclick="action('createQR')">Create QR Code for this page</button>
+    </div>
+
+    <div class="sub-half">
+      <button class="name" onclick="action('translate')">Translate to English</button>
+    </div>  
+
+    <div class="sub-half">
+      <button class="name" onclick="action('font')">Font Details</button>
+    </div>
+
+    <div class="sub-half">
+      <button class="name addPadding" onclick="action('viewSource')">View page source</button>
+      <button class="name addPadding" onclick="action('inspect')">Inspect</button>
+    </div>
+
+  </div>
+
+<script src="setting.js"></script>
+
+</body>
+</html>
